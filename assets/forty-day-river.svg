@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="420" viewBox="0 0 410 420" preserveAspectRatio="none" role="img" aria-labelledby="title">
+  <title id="title">An illustrated river bend with one mark for each of forty reading days</title>
+  <defs>
+    <linearGradient id="water" x2="0.9" y2="1">
+      <stop stop-color="#2e646b"/>
+      <stop offset="1" stop-color="#153f45"/>
+    </linearGradient>
+    <path id="bend" pathLength="40" d="M 67,56 C 170,32 324,57 324,128 C 324,209 92,153 92,239 C 92,315 289,286 339,359"/>
+  </defs>
+  <rect width="410" height="420" fill="url(#water)"/>
+  <g fill="none">
+    <path d="M-48 37 C91 -12 271 -15 360 51 S452 204 239 221 C112 234 164 259 276 280 S433 383 441 430 M-35 17 C104 -32 286 -33 379 38 S477 221 249 237 C163 246 202 252 287 268 S455 374 466 426 M-30 58 C56 23 217 14 306 47 C387 79 398 169 291 195 C206 217 107 189 127 242 C142 280 247 273 314 310 C370 340 397 395 406 432 M-27 96 C88 54 232 66 264 100 C325 160 175 149 108 169 C10 198 33 315 158 338 C227 352 270 374 283 426 M-33 119 C68 83 210 87 239 107 C275 136 152 131 89 154 C-11 191 8 334 148 356 C212 369 235 377 253 430 M-29 137 C69 111 132 113 206 117 M-28 162 C5 152 37 145 71 139 M-5 326 C36 368 112 387 174 400 C201 407 212 414 224 432" stroke="#9fcac4" opacity=".33"/>
+    <use href="#bend" stroke="#b5d0ca" opacity=".55" stroke-width="1.5"/>
+    <use href="#bend" stroke="#ffefc8" stroke-width="5" stroke-linecap="round" stroke-dasharray="0 1" stroke-dashoffset=".5"/>
+  </g>
+</svg>
